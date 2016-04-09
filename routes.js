@@ -35,8 +35,7 @@ Router.route('/blog', function () {
   });
 });
 
-
-
+// i am trying to make a button for creating posts
 
 
 
