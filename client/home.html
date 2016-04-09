@@ -5,11 +5,24 @@
 		<div class="jumbotron">
 	  			<h1>Welcome to Funtime</h1>
 	  			<H2>Your site for group activity brainstorming</H2>
-	  			<p><a class="btn btn-primary btn-lg" href="/blog" role="button">See all the  ideas </a></p>
-	  			<p><a class="btn btn-primary btn-lg" href="/admin/blog/edit/new" role="button">Add your own idea</a></p>
-	   		<div class= "blog-latest">
-	   		{{> blogLatest num=5}}	
-	   		</div> 
+	  			<div class = "row">
+	  				<div class = "col-md-4">
+	  					<p><a class="btn btn-primary btn-lg" href="/this_year" role="button">Guidlines 2016</a></p>
+	  				</div>
+	  				<div class = "col-md-4">
+	  					<p><a class="btn btn-primary btn-lg" href="/blog" role="button">See all the  ideas </a></p>
+	  				</div>
+	  				<div class = "col-md-4">	
+	  					<p><a class="btn btn-primary btn-lg" href="/admin/blog/edit/new" role="button">Add your own idea</a></p>
+	  				</div>
+	  			</div>		
+	   		<!--<div class= "blog-latest">
+	   		<div class = "row">
+	   			<div class = "col-md-12">
+	   			{{> blogLatest num=5}}
+	   			</div>	
+	   		</div>
+	   		</div> -->
 		</div>
 	</div>
 </template>

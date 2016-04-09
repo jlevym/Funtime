@@ -26,6 +26,15 @@ Router.route('/kids', function () {
   });
 });
 
+Router.route('/this_year', function () {
+  this.render('header', {
+    to:"navbar"
+  });
+  this.render('this_year', {
+    to:"main"
+  });
+});
+
 Router.route('/blog', function () {
   this.render('header', {
     to:"navbar"
