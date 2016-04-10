@@ -16,23 +16,36 @@
 }
 
 .jumbotron{
-	color: white;
+	/*color: white;*/
 	background-image: url(people1.jpg);
 	height: 100vh;
 	background-size: cover;
 }
 
-.subtitle{
-	padding: 50px;
+.title{
+	text-align: center;
+	background-color: IVORY;
+	color: black;
+	padding: 70px;
+	border: 2px solid #4CAF50; /* Green */
+	border-radius: 25px;
 }
 
-.kumbotron {
-    position: relative;
-    background: #000 url("jumbotron-bg.png") center center;
-    width: 100%;
-    height: 100%;
-    height: 100vh;
-    background-size: cover;
-    overflow: hidden;
-    background-color: Aquamarine;
+.subtitle{
+	text-align: center;
+	background-color: IVORY;
+	color: black;
+	padding: 50px;
+	border: 2px solid #4CAF50; /* Green */
+	border-radius: 25px;
+}
+
+.btn {
+    background-color: IVORY;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+}
+
+.this_year{/*last addition*/
+	max-height: 400px;
 }

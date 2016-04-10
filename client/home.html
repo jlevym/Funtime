@@ -1,19 +1,24 @@
 
 
 <template name="home">
-	<div class="container">
 		<div class="jumbotron">
-	  			<h1>Welcome to Funtime</h1>
-	  			<H2>Your site for group activity brainstorming</H2>
+			<div class="container"> <!--moved container into jumbotron-->
+
+	  			<h1 class ="title">Welcome to Funtime</h1>
+	  			<H2 class = 'subtitle'>Our site for group activity brainstorming</H2>
+
 	  			<div class = "row">
-	  				<div class = "col-md-4">
-	  					<p><a class="btn btn-primary btn-lg" href="/this_year" role="button">Guidlines 2016</a></p>
+	  				<div class = "col-md-3">
+	  					<p><a class="btn btn-primary btn-lg" href="/this_year" role="button">Guidelines 2016</a></p>
 	  				</div>
-	  				<div class = "col-md-4">
-	  					<p><a class="btn btn-primary btn-lg" href="/blog" role="button">See all the  ideas </a></p>
+	  				<div class = "col-md-3">
+	  					<p><a class="btn btn-primary btn-lg" href="/blog" role="button">Browse all ideas </a></p>
 	  				</div>
-	  				<div class = "col-md-4">	
-	  					<p><a class="btn btn-primary btn-lg" href="/admin/blog/edit/new" role="button">Add your own idea</a></p>
+	  				<div class = "col-md-3">	
+	  					<p><a class="btn btn-primary btn-lg" href="/admin/blog/edit/new" role="button">Post your idea</a></p>
+	  				</div>
+	  				<div class = "col-md-3">	
+	  					<p><a class="btn btn-primary btn-lg" href="/admin/blog/" role="button">Update an idea</a></p>
 	  				</div>
 	  			</div>		
 	   		<!--<div class= "blog-latest">
