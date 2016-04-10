@@ -8,6 +8,12 @@ Router.route('/', function () {
   });
 });
 
+Router.route('/home1', function () { // added this for working on home page
+  this.render('home1', {
+    to:"main"
+  });
+});
+
 Router.route('/news', function () {
   this.render('header', {
     to:"navbar"
